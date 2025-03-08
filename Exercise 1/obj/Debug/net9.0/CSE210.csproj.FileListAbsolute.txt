@@ -1,0 +1,15 @@
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\bin\Debug\net9.0\CSE210.exe
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\bin\Debug\net9.0\CSE210.deps.json
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\bin\Debug\net9.0\CSE210.runtimeconfig.json
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\bin\Debug\net9.0\CSE210.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\bin\Debug\net9.0\CSE210.pdb
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\CSE210.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\CSE210.AssemblyInfoInputs.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\CSE210.AssemblyInfo.cs
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\CSE210.csproj.CoreCompileInputs.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\CSE210.sourcelink.json
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\CSE210.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\refint\CSE210.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\CSE210.pdb
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\CSE210.genruntimeconfig.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\obj\Debug\net9.0\ref\CSE210.dll
