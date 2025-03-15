@@ -2,32 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-/// <summary>
-/// The Journal class manages a collection of entries and handles saving/loading from files
-/// </summary>
 class Journal
 {
     private List<Entry> _entries;
 
-    /// <summary>
-    /// Constructor initializes an empty list of entries
-    /// </summary>
     public Journal()
     {
         _entries = new List<Entry>();
     }
 
-    /// <summary>
-    /// Adds a new entry to the journal
-    /// </summary>
     public void AddEntry(Entry entry)
     {
         _entries.Add(entry);
     }
 
-    /// <summary>
-    /// Displays all entries in the journal
-    /// </summary>
     public void DisplayAll()
     {
         if (_entries.Count == 0)
@@ -43,14 +31,10 @@ class Journal
         }
     }
 
-    /// <summary>
-    /// Saves all entries to a file
-    /// </summary>
     public void SaveToFile(string filename)
     {
         try
         {
-            // Ensure the filename has a .txt extension
             if (!filename.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
             {
                 filename += ".txt";
@@ -71,14 +55,10 @@ class Journal
         }
     }
 
-    /// <summary>
-    /// Loads entries from a file, replacing any current entries
-    /// </summary>
     public void LoadFromFile(string filename)
     {
         try
         {
-            // Ensure the filename has a .txt extension
             if (!filename.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
             {
                 filename += ".txt";
