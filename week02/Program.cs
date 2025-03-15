@@ -6,18 +6,8 @@ class Program
     static void Main(string[] args)
     {
         Journal journal = new Journal();
+        PromptGenerator promptGenerator = new PromptGenerator();
         
-        List<string> prompts = new List<string>
-        {
-            "Who was the most interesting person I interacted with today?",
-            "What was the best part of my day?",
-            "How did I see the hand of the Lord in my life today?",
-            "What was the strongest emotion I felt today?",
-            "If I had one thing I could do over today, what would it be?",
-            "What am I most grateful for today?",
-            "What did I learn today that I didn't know before?"
-        };
-
         bool running = true;
         while (running)
         {
@@ -34,20 +24,16 @@ class Program
             switch (choice)
             {
                 case "1":
-                    Random random = new Random();
-                    int index = random.Next(prompts.Count);
-                    string prompt = prompts[index];
+                    string prompt = promptGenerator.GetRandomPrompt();
                     
                     Console.WriteLine($"\nPrompt: {prompt}");
                     Console.Write("> ");
                     string response = Console.ReadLine();
                     
-                    Entry entry = new Entry
-                    {
-                        Date = DateTime.Now.ToShortDateString(),
-                        Prompt = prompt,
-                        Response = response
-                    };
+                    Entry entry = new Entry();
+                    entry.SetDate(DateTime.Now.ToShortDateString());
+                    entry.SetPromptText(prompt);
+                    entry.SetEntryText(response);
                     
                     journal.AddEntry(entry);
                     Console.WriteLine("Entry added successfully!");

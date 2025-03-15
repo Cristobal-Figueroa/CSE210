@@ -11,9 +11,9 @@ class Journal
         _entries = new List<Entry>();
     }
 
-    public void AddEntry(Entry entry)
+    public void AddEntry(Entry newEntry)
     {
-        _entries.Add(entry);
+        _entries.Add(newEntry);
     }
 
     public void DisplayAll()
@@ -31,23 +31,23 @@ class Journal
         }
     }
 
-    public void SaveToFile(string filename)
+    public void SaveToFile(string file)
     {
         try
         {
-            if (!filename.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
+            if (!file.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
             {
-                filename += ".txt";
+                file += ".txt";
             }
             
-            using (StreamWriter writer = new StreamWriter(filename))
+            using (StreamWriter writer = new StreamWriter(file))
             {
                 foreach (Entry entry in _entries)
                 {
                     writer.WriteLine(entry.ToFileString());
                 }
             }
-            Console.WriteLine($"Journal saved successfully to {filename}");
+            Console.WriteLine($"Journal saved successfully to {file}");
         }
         catch (Exception ex)
         {
@@ -55,18 +55,18 @@ class Journal
         }
     }
 
-    public void LoadFromFile(string filename)
+    public void LoadFromFile(string file)
     {
         try
         {
-            if (!filename.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
+            if (!file.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
             {
-                filename += ".txt";
+                file += ".txt";
             }
             
             _entries.Clear();
             
-            using (StreamReader reader = new StreamReader(filename))
+            using (StreamReader reader = new StreamReader(file))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
@@ -79,12 +79,12 @@ class Journal
                 }
             }
             
-            Console.WriteLine($"Journal loaded successfully from {filename}");
+            Console.WriteLine($"Journal loaded successfully from {file}");
             Console.WriteLine($"Loaded {_entries.Count} entries");
         }
         catch (FileNotFoundException)
         {
-            Console.WriteLine($"File not found: {filename}");
+            Console.WriteLine($"File not found: {file}");
         }
         catch (Exception ex)
         {

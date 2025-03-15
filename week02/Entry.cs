@@ -2,21 +2,51 @@ using System;
 
 class Entry
 {
-    public string Date { get; set; }
-    public string Prompt { get; set; }
-    public string Response { get; set; }
+    private string _date;
+    private string _promptText;
+    private string _entryText;
+
+    public string GetDate()
+    {
+        return _date;
+    }
+
+    public void SetDate(string date)
+    {
+        _date = date;
+    }
+
+    public string GetPromptText()
+    {
+        return _promptText;
+    }
+
+    public void SetPromptText(string promptText)
+    {
+        _promptText = promptText;
+    }
+
+    public string GetEntryText()
+    {
+        return _entryText;
+    }
+
+    public void SetEntryText(string entryText)
+    {
+        _entryText = entryText;
+    }
 
     public void Display()
     {
-        Console.WriteLine($"Date: {Date}");
-        Console.WriteLine($"Prompt: {Prompt}");
-        Console.WriteLine($"Response: {Response}");
+        Console.WriteLine($"Date: {_date}");
+        Console.WriteLine($"Prompt: {_promptText}");
+        Console.WriteLine($"Response: {_entryText}");
         Console.WriteLine();
     }
 
     public string ToFileString()
     {
-        return $"{Date}~|~{Prompt}~|~{Response}";
+        return $"{_date}~|~{_promptText}~|~{_entryText}";
     }
 
     public static Entry FromFileString(string fileString)
@@ -28,11 +58,10 @@ class Entry
             throw new FormatException("Invalid entry format in file");
         }
 
-        return new Entry
-        {
-            Date = parts[0],
-            Prompt = parts[1],
-            Response = parts[2]
-        };
+        Entry entry = new Entry();
+        entry.SetDate(parts[0]);
+        entry.SetPromptText(parts[1]);
+        entry.SetEntryText(parts[2]);
+        return entry;
     }
 }
