@@ -50,6 +50,12 @@ class Journal
     {
         try
         {
+            // Ensure the filename has a .txt extension
+            if (!filename.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
+            {
+                filename += ".txt";
+            }
+            
             using (StreamWriter writer = new StreamWriter(filename))
             {
                 foreach (Entry entry in _entries)
@@ -72,6 +78,12 @@ class Journal
     {
         try
         {
+            // Ensure the filename has a .txt extension
+            if (!filename.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
+            {
+                filename += ".txt";
+            }
+            
             _entries.Clear();
             
             using (StreamReader reader = new StreamReader(filename))
