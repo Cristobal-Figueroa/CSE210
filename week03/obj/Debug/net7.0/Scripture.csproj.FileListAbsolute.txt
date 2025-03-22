@@ -1,0 +1,15 @@
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\bin\Debug\net7.0\Scripture.exe
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\bin\Debug\net7.0\Scripture.deps.json
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\bin\Debug\net7.0\Scripture.runtimeconfig.json
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\bin\Debug\net7.0\Scripture.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\bin\Debug\net7.0\Scripture.pdb
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\Scripture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\Scripture.AssemblyInfoInputs.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\Scripture.AssemblyInfo.cs
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\Scripture.csproj.CoreCompileInputs.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\Scripture.sourcelink.json
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\Scripture.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\refint\Scripture.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\Scripture.pdb
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\Scripture.genruntimeconfig.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\github\CSE210\week03\obj\Debug\net7.0\ref\Scripture.dll
