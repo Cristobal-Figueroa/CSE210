@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kyYVNW7ak2E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Crist\\Desktop\\Estudios 📖\\BYU\\Term 2\\CSE210\\github\\CSE210\\week04\\OnlineOrdering\\OnlineOrdering.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Crist\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Crist\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Crist\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Crist\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
