@@ -1,0 +1,14 @@
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\bin\Debug\net6.0\Mindfulness.exe
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\bin\Debug\net6.0\Mindfulness.deps.json
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\bin\Debug\net6.0\Mindfulness.runtimeconfig.json
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\bin\Debug\net6.0\Mindfulness.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\bin\Debug\net6.0\Mindfulness.pdb
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\Mindfulness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\Mindfulness.AssemblyInfoInputs.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\Mindfulness.AssemblyInfo.cs
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\Mindfulness.csproj.CoreCompileInputs.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\Mindfulness.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\refint\Mindfulness.dll
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\Mindfulness.pdb
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\Mindfulness.genruntimeconfig.cache
+C:\Users\Crist\Desktop\Estudios 📖\BYU\Term 2\CSE210\w05\obj\Debug\net6.0\ref\Mindfulness.dll
